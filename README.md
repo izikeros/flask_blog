@@ -1,9 +1,13 @@
 # Simple Flask App
 This is a simple blog app writen in Flask python micro-framework. App is based on serie of tutorials: [Python Flask from Scratch](https://www.youtube.com/watch?v=zRwy8gtgJ1A&list=PLillGF-RfqbbbPz6GSEM9hLQObuQjNoj_)
 
-* user registration
-* login and access control
-* dashbord with list of articles with possibility to `edit` or `delete` each article
+### user registration
+![Flask blog screenshot](images/flask_blog_screenshot_4.png){:height="50%" width="50%"}
+### login and access control
+![Flask blog screenshot](images/flask_blog_screenshot_3.png){:height="50%" width="50%"}
+### dashboard with list of articles with possibility to `edit` or `delete` each article
+![Flask blog screenshot](images/flask_blog_screenshot_1.png){:height="50%" width="50%"}
+
 
 
 # Requirements
