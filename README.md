@@ -10,11 +10,11 @@ This is a simple blog app based on serie of tutorials: [Python Flask from Scratc
 NOTE: mariadb was used as replacement for mysql
 
 For Arch linux:
-```sh
+```bash
 $ pacman -S mariadb libmariadbclient
 ```
 
-```
+```bash
 $ pip install flask-mysqldb
 
 # form validation, ...
@@ -26,47 +26,47 @@ $ pip install passlib
 
 # Handy mysql commands
 Enter mysql:
-```sh
+```bash
 $ mysql -u root -p
 ```
 
 Show existing databases:
-```mysql
+```sql
 > SHOW DATABASES
 ```
 
 Create new database:
-```
+```sql
 > CREATE DATABASE myflaskapp;
 ```
 
 Use our database:
-```mysql
+```sql
 > USE myflaskapp
 ```
 
 Create table with articles:
-```mysql
+```sql
 > CREATE TABLE articles (id INT(11) AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255), author VARCHAR(100), body TEXT, create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 ```
 
 List all tables to check if table was created:
-```mysql
+```sql
 > SHOW TABLES;
 ```
 
 List all articles:
-```
+```sql
 > SELECT * FROM articles
 ```
 
-* create table with users
-```mysql
+Create table with users
+```sql
 > CREATE TABLE users(id INT(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), email VARCHAR(100), username VARCHAR(30), password VARCHAR(100), register_date TIMESTAMP CURRENT_TIMESTAMP);
 ```
 
-* describe
-```
+Get info on users table
+```sql
 > DESCRIBE users
 ```
 
